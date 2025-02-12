@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: selfhost runners
+    runs-on: self-hosted
 
     strategy:
       matrix:
